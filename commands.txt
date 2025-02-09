@@ -1,0 +1,18 @@
+cd /home/wagdy/task_1
+cat task.txt
+mkdir my_dir
+cd my_dir
+touch wajdi
+nano wajdi
+ln -s wajdi L1_wajdi
+ln -s /home/wagdy/task_1/my_dir/wajdi L2_wajdi
+ln wajdi H_wajdi
+mkdir links
+mv L1_wajdi L2_wajdi H_wajdi links
+cp -r links /home/wagdy/
+ls /home/wagdy/links
+rm -r /home/wagdy/links
+cd links
+rm L1_wajdi L2_wajdi
+man mkdir
+mkdir -p /home/wagdy/task_1/linux/ubuntu
